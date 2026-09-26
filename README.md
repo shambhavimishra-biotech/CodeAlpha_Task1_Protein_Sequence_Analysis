@@ -1,6 +1,6 @@
-# CodeAlpha Task 3: Protein Structure Prediction
+# CodeAlpha Task 1: Protein Sequence Analysis
 
-**Human Lysozyme C (LYZ / P61626)**  
+**BLASTP of Human Myoglobin (MB / P02144)**  
 Submitted by: **SHAMBHAVI**  
 Internship: CodeAlpha Bioinformatics Internship
 
@@ -8,16 +8,12 @@ Internship: CodeAlpha Bioinformatics Internship
 
 ## Project Overview
 
-This repository contains the work done for **Task 3 – Protein Structure Prediction**.
+This repository contains the work done for **Task 1 – Protein Sequence Analysis**.
 
-I predicted and analysed the 3D structure of Human Lysozyme C using:
-- AlphaFold Database
-- SWISS-MODEL homology modelling
+Human myoglobin is the oxygen-storage protein found mainly in muscle. It belongs to the globin superfamily and functions as a monomer (unlike haemoglobin). The UniProt sequence **P02144** was retrieved in FASTA format and searched with **BLASTP** against UniProtKB/Swiss-Prot.
 
-The experimental structure (PDB 1LZ1) was used as a reference to evaluate the quality of the predicted models.
+The search recovered a clean set of myoglobin orthologs, with identity decreasing in a biologically expected way as evolutionary distance increases. Distant globin family members (cytoglobin, neuroglobin) appear only lower in the hit list.
 
 ---
 
 ## Repository Structure
-
-    
